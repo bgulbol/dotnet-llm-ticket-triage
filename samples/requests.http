@@ -1,0 +1,22 @@
+### Health check
+GET https://localhost:49359/health
+
+### Triage an angry billing ticket
+POST https://localhost:49359/api/triage
+Content-Type: application/json
+
+{
+  "subject": "Charged twice this month!!",
+  "body": "I just checked my bank statement and you charged my card TWICE for the same subscription. This is unacceptable, I want a refund immediately.",
+  "customerTier": "Pro"
+}
+
+### Triage a feature request
+POST https://localhost:49359/api/triage
+Content-Type: application/json
+
+{
+  "subject": "Dark mode?",
+  "body": "Love the product. Any chance you could add a dark mode to the dashboard? My eyes would thank you.",
+  "customerTier": "Free"
+}
