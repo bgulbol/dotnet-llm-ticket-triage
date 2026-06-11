@@ -74,6 +74,9 @@ Response:
   "suggestedFirstResponse": "I'm really sorry about the duplicate charge — I've flagged this to our billing team and we'll resolve it as a priority."
 }
 ```
+Live response during development (Claude Sonnet via the Anthropic provider):
+
+![Sample triage response](docs/sample-response.png)
 
 More examples in [`samples/requests.http`](samples/requests.http). Run the tests (no API key required):
 
