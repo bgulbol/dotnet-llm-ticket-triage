@@ -77,7 +77,7 @@ Response:
 
 Live response during development (Claude Sonnet via the Anthropic provider):
 
-![Sample triage response](docs/sample-response.PNG)
+![Sample triage response](docs/sample-response.png)
 
 More examples in [`samples/requests.http`](samples/requests.http). Run the tests (no API key required):
 
