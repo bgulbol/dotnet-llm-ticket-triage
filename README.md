@@ -54,7 +54,7 @@ dotnet run --project src/TicketTriage.Api
 Then send a ticket:
 
 ```bash
-curl -X POST http://localhost:5000/api/triage \
+curl -X POST http://localhost:49359/api/triage \
   -H "Content-Type: application/json" \
   -d '{
     "subject": "Charged twice this month!!",
